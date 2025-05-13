@@ -14,7 +14,11 @@ EUCAIM Governing Body that controls the access to the Atlas of Cancer Images. It
 
 ### Access Negotiator
 
-The Access Negotiator, or Negotiator, is a specialised tool integrated into the EUCAIM Dashboard and designed to facilitate the exchange of documents and information between Data User and the Access Committee. On the one hand, the Negotiator allows users to submit requests for data or software to one or several holders as selected in a previous discovery step in the EUCAIM catalogue. On the other hand, the Negotiator also allows users to build new research projects by facilitating the negotiation with a specific EUCAIM network of contacts according to their objectives and needs. In both cases, the negotiation mechanism allows the Access Committee and, ultimately the Data or Software Holder itself, where appropriate, to (a) to obtain more information from the requestor to better understand the reason of the request and the requested data in this broadcast mode, (b) to enter a negotiation process with the requester, or (c) to step back from a request in case thinking of not being able to fulfil what was requested for some reason.
+The Access Negotiator, or Negotiator, is a specialised tool integrated into the EUCAIM Dashboard and designed to facilitate the exchange of documents and information between Data User and the Access Committee. 
+
+On the one hand, the Negotiator allows users to submit requests for data or software to one or several holders as selected in a previous discovery step in the EUCAIM catalogue. On the other hand, the Negotiator also allows users to build new research projects by facilitating the negotiation with a specific EUCAIM network of contacts according to their objectives and needs. 
+
+In both cases, the negotiation mechanism allows the Access Committee and, ultimately the Data or Software Holder itself, where appropriate, to (a) to obtain more information from the requestor to better understand the reason of the request and the requested data in this broadcast mode, (b) to enter a negotiation process with the requester, or (c) to step back from a request in case thinking of not being able to fulfil what was requested for some reason.
 
 ### Administrative Project Coordinator (AdmCo)
 
