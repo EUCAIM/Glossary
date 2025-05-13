@@ -1,8 +1,10 @@
 # Glossary
 
+<a name="glossary"></a>
+
 [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | J | K | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | Q | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | X | Y | Z
 
-### <a name="a"></a>
+---
 
 ### Acceptance process
 
@@ -14,10 +16,8 @@ EUCAIM Governing Body that controls the access to the Atlas of Cancer Images. It
 
 ### Access Negotiator
 
-The Access Negotiator, or Negotiator, is a specialised tool integrated into the EUCAIM Dashboard and designed to facilitate the exchange of documents and information between Data User and the Access Committee. 
-
-On the one hand, the Negotiator allows users to submit requests for data or software to one or several holders as selected in a previous discovery step in the EUCAIM catalogue. On the other hand, the Negotiator also allows users to build new research projects by facilitating the negotiation with a specific EUCAIM network of contacts according to their objectives and needs. 
-
+The Access Negotiator, or Negotiator, is a specialised tool integrated into the EUCAIM Dashboard and designed to facilitate the exchange of documents and information between Data User and the Access Committee.
+On the one hand, the Negotiator allows users to submit requests for data or software to one or several holders as selected in a previous discovery step in the EUCAIM catalogue. On the other hand, the Negotiator also allows users to build new research projects by facilitating the negotiation with a specific EUCAIM network of contacts according to their objectives and needs.
 In both cases, the negotiation mechanism allows the Access Committee and, ultimately the Data or Software Holder itself, where appropriate, to (a) to obtain more information from the requestor to better understand the reason of the request and the requested data in this broadcast mode, (b) to enter a negotiation process with the requester, or (c) to step back from a request in case thinking of not being able to fulfil what was requested for some reason.
 
 ### Administrative Project Coordinator (AdmCo)
@@ -52,7 +52,7 @@ Workshops organised to collect necessary metadata from available tools following
 
 ### Anonymisation
 
-The processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject. Irreversible removal of personally identifiable information (i.e., all directly and indirectly identifying information) definitely not allowing the identification of the data subjects [[5]](3-References.md#ref-5). The methods used to anonymize the data depend on the context and the technology used (such as DICOM tags removal and facial erasing); this process must take into account the recommendations of the Data Protection Authorities of each EU Member State. Anonymized data allows its use in research and the development of artificial intelligence tools without compromising patient confidentiality, facilitating collaboration and information exchange between different institutions.
+The processing of personal data in such a manner that the personal data can no longer be attributed to a specific data subject. Irreversible removal of personally identifiable information (i.e., all directly and indirectly identifying information) definitely not allowing the identification of the data subjects [[5]](3-References.md#ref-5). The methods used to anonymize the data depend on the context and the technology used (such as DICOM tags removal and facial erasing); this process must consider the recommendations of the Data Protection Authorities of each EU Member State. Anonymized data allows its use in research and the development of artificial intelligence tools without compromising patient confidentiality, facilitating collaboration and information exchange between different institutions.
 
 ### Artificial Intelligence Act
 
@@ -66,7 +66,7 @@ Data and service environment of the federation for aiding cancer research (durin
 
 AAI refers to a set of services and procedures that enable the identification of a user and the validation of their credentials (authentication) and the definition and implementation of the permissions for the user (authorisation) in order to access restricted information or services. EUCAIM services use the Life Science Login as AAI,
 
-### <a name="b"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Benchmarking
 
@@ -87,7 +87,7 @@ Personal data resulting from specific technical processing relating to the physi
 
 Available funds allocated for new beneficiaries. These beneficiaries will receive funding under the same co-funding conditions as consortium partners (i.e. 50% of the budget; a total budget of €3,600,000 has been included with the COO EIBIR, and the maximum amount per grant is €200,000).
 
-### <a name="c"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Calibration
 
@@ -184,7 +184,7 @@ The Consortium Agreement, specifies the rights and obligations of the project pa
 
 The strategies and tools used to manage and optimize interactions with key stakeholders.
 
-### <a name="d"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Data
 
@@ -398,7 +398,7 @@ Virtual meeting organized to foster the exchange of knowledge, experiences, and 
 
 Also referred in this project as federated data processing, it consists of the orchestration framework in which the Tier 3 nodes run applications on their data in a coordinated way.
 
-### <a name="e"></a>
+[↑ Back to glossary index](#glossary)
 
 ### ELIXIR Tools Platform
 
@@ -431,19 +431,19 @@ The entity as a whole, which encompasses both the central and federated componen
 
 Commonly Used Terms in the Field of Health Data Research
 Glossary Team
-- Irene Marín Radoszynski (HULAFE) irene_marin@iislafe.es
+- Irene Marín Radoszynski (HULAFE)
 - Carina Soler Pons (HULAFE)
-- Ana García Marco ana_garcia_marco@iislafe.es
-- Patricia Serrano Candelas patricia_serrano@iislafe.es
+- Ana García Marco
+- Patricia Serrano Candelas
 - Leonor Cerdá Alberich (HULAFE)
 - Luis Marti-Bonmati (HULAFE)
-- Ignacio Blanquer (UPV) iblanque@dsic.upv.es
+- Ignacio Blanquer (UPV)
 - Hanna Leisz (DKFZ) hanna.leisz@dkfz-heidelberg.de
 - Ricard Martinez (UV) ()
 - Janos Meszaros (KUL) janos.meszaros@kuleuven.be
 - Sara Zullino (EATRIS) sarazullino@eatris.eu
 - Esther Bron (Erasmus MC / Health-RI)
-- Carles Hernandez-Ferrer (BSC) carles.hernandez2
+- Carles Hernandez-Ferrer (BSC) carles.
 - Laura Portell (BSC)
 - Katrine Riklund (UMU)
 - Valia Kalokyri (FORTH)
@@ -493,7 +493,7 @@ In the context of an EU project, an external partner typically refers to an orga
 
 Any use case conducted by external partners (see also definition for “use case”).
 
-### <a name="f"></a>
+[↑ Back to glossary index](#glossary)
 
 ### FAIR Data Point (FDP)
 
@@ -569,7 +569,7 @@ Any structured set of personal and non-personal data which are accessible accord
 
 The documents that reflect the economic and financial situation of the project, detailing the income, expenses, assets, liabilities, and cash flow related to the consortium's activities.
 
-### <a name="g"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Genetic Data
 
@@ -579,7 +579,7 @@ Personal data relating to the inherited or acquired genetic characteristics of a
 
 The party that encompasses the board of EUCAIM and can decide the approval, comment, or refusal of an application of data access, and data or tool provisioning, supported by legal, ethical, and technical boards.
 
-### <a name="h"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Health data
 
@@ -605,7 +605,7 @@ A service to provide support to the users and to notify incidences in the platfo
 
 Within the EUCAIM project framework, affiliated hospitals constitute a distinct subset of data holders. In this case, hospitals will not expose their data warehouses to the federation, which may already exist or may have been created for EUCAIM. Instead, they will be approached individually each time there is a new research project on specific clinical cases. If they choose to participate in the project, hospitals will prepare the necessary anonymised datasets within their data warehouses, and these datasets will be shared with the federation through a federated data node or by uploading them to the Central Storage. Therefore, hospitals will only expose metadata for specific datasets from projects in which they have chosen to participate upon request.
 
-### <a name="i"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Imaging folder structure
 
@@ -629,7 +629,7 @@ The primary aim of this call is to gather all necessary information to ensure th
 
 Any use case conducted by internal partners (see also definition for “use case”).
 
-### <a name="l"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Learning Management System
 
@@ -663,7 +663,7 @@ A local node represents the infrastructure set up by a Data Holder that is consi
 
 Services run on the local node to reach the interoperability with the central hub.
 
-### <a name="m"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Machine learning
 
@@ -702,13 +702,13 @@ Key events or important stages within the project.
 
 The EUCAIM monitoring service tracks the status of its components by making periodic requests to associated web services. It uses the ELK stack (Elasticsearch, Logstash, and Kibana) deployed in a Kubernetes cluster. Elasticsearch stores metrics, Kibana provides data visualization, and Logstash processes alerts and sends notifications. Heartbeat checks service availability, while Elastic Agent and kube-state-metrics collect cluster state data. The system is deployed via YAML manifests and operates through automated interactions, ensuring real-time monitoring and alerts.
 
-### <a name="n"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Non-personal data
 
 All data other than personal data. Note that non-personal data could be inextricably linked with personal data or be used in order to obtain inferences of persons’ qualities; in such case, GDPR and national data protection laws must apply [[5]](3-References.md#ref-5).
 
-### <a name="o"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Ontology Requirements Specification Document (ORSD)
 
@@ -742,7 +742,7 @@ Component of the central hub that hosts the elements designed to orchestrate a f
 
 The process of evaluating and determining who has control and ownership of the data, tools, and results generated during the project. This assessment is crucial to ensure that all participants in the consortium understand and respect intellectual property rights, data access agreements, and the distribution of benefits derived from the developed technologies. [[44]](3-References.md#ref-44)
 
-### <a name="p"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Patient Advisory Board
 
@@ -807,7 +807,7 @@ The processing of personal data in such a manner that the personal data can no l
 
 Metadata catalogue available to anonymous and authenticated users, offering the visualisation of the datasets metadata, with basic centralised filtering/faceted search options. This catalogue stores metadata, offering the Data Users basic descriptive information about the available datasets and their data access conditions.
 
-### <a name="r"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Raw Data
 
@@ -845,7 +845,7 @@ AI that is designed, developed, evaluated, and monitored by employing an appropr
 
 Defined by the GDPR, methods by which to restrict the processing of data could include, inter alia, temporarily moving the selected data to another processing system, making the selected personal data unavailable to users, or temporarily removing published data from a website. In automated filing systems, the restriction of processing should in principle be ensured by technical means in such a manner that the personal data are not subject to further processing operations and cannot be changed. The fact that the processing of data is restricted should be clearly indicated in the system [[52]](3-References.md#ref-52).
 
-### <a name="s"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Scientific Advisory Board
 
@@ -901,7 +901,7 @@ The concept of synthetic data generation is to take an original data source (dat
 Keeping the statistical properties means that anyone analysing the synthetic data, a data analyst for example, should be able to draw the same statistical conclusions from the analysis of a given dataset of synthetic data as he/she would if given the real (original) data.
 The use of synthetic data is growing in many fields: from training of artificial intelligence models within the health sector to computer vision, image recognition and robotics fields [[55]](3-References.md#ref-55).
 
-### <a name="t"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Technical and user management unit
 
@@ -963,7 +963,7 @@ A Trusted Research Environment is a secure processing environment where data rem
 
 AI with proven characteristics such as efficacy, safety, fairness, robustness, transparency, which enable relevant stakeholders such as citizens, clinicians, health organisations and authorities to rely on it and adopt it in real-world practice [[51]](3-References.md#ref-51).
 
-### <a name="u"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Use case
 
@@ -1005,7 +1005,7 @@ Descriptions of full interactions of a User Role with the EUCAIM platform, descr
 
 Area of the Dashboard where the authenticated Data Users can add and remove the references of collections selected from the User’s Catalogue (either filtered using the federated query mechanism or not), request access to them, and view and manage their approved or rejected access requests.
 
-### <a name="v"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Validation Data
 
@@ -1015,10 +1015,18 @@ Data used for providing an evaluation of the trained AI system and for tuning it
 
 A Verified Dataset is a dataset that has undergone validation to ensure compliance with EUCAIM’s federated processing standards. It is made available through secure reference nodes, where verified software can be executed on the dataset while maintaining data integrity and security. This validation process ensures that datasets are properly structured, anonymized, and meet the necessary requirements for research and AI model training.
 
-### <a name="w"></a>
+[↑ Back to glossary index](#glossary)
 
 ### Wizard Tool
 
 An anonymization planning tool to identify potential risks, suggest mitigation strategies, and promote a secure-by-design approach for data anonymization. The tool helps data holders comply with EUCAIM’s privacy and accountability requirements by ensuring structured anonymization processes. However, due to non-standardized clinical data in Tier 1, its functionalities for clinical datasets are deactivated. The Wizard Tool enhances awareness of weak points in anonymization workflows and supports compliance with federated data-sharing frameworks.
 References:
 
+[↑ Back to glossary index](#glossary)
+
+
+---
+
+[A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | J | K | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | Q | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | X | Y | Z
+
+[↑ Back to top](#glossary)
