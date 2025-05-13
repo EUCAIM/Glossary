@@ -6,6 +6,8 @@
 
 ---
 
+## A
+
 ### Acceptance process
 
 The Management Board makes a decision of acceptance or rejection within a period of 60 days, supported by the internal governance bodies on ethics and legal compliance and taking into consideration the indications from the Access Committee and Steering Committee.
@@ -68,6 +70,8 @@ AAI refers to a set of services and procedures that enable the identification of
 
 [↑ Back to glossary index](#glossary)
 
+## B
+
 ### Benchmarking
 
 Benchmarking ensures that the platform's software tools, AI models, and infrastructure meet high standards of performance, scalability, and usability. It consists of scientific and technical benchmarking processes.
@@ -88,6 +92,8 @@ Personal data resulting from specific technical processing relating to the physi
 Available funds allocated for new beneficiaries. These beneficiaries will receive funding under the same co-funding conditions as consortium partners (i.e. 50% of the budget; a total budget of €3,600,000 has been included with the COO EIBIR, and the maximum amount per grant is €200,000).
 
 [↑ Back to glossary index](#glossary)
+
+## C
 
 ### Calibration
 
@@ -185,6 +191,8 @@ The Consortium Agreement, specifies the rights and obligations of the project pa
 The strategies and tools used to manage and optimize interactions with key stakeholders.
 
 [↑ Back to glossary index](#glossary)
+
+## D
 
 ### Data
 
@@ -339,7 +347,6 @@ Agreement between two or more parties that outline which data will be shared and
 Data stored outside of an organisation’s host country are still subject to the laws of the country where the data are stored [[25]](3-References.md#ref-25).
 Data space:
 
-
 A distributed system delineated by a governance framework, facilitating secure and reliable data transactions among participants, with a focus on upholding trust and data sovereignty. A data space typically consists of one or more infrastructures and supports various use cases.
 
 ### Data steward
@@ -399,6 +406,8 @@ Virtual meeting organized to foster the exchange of knowledge, experiences, and 
 Also referred in this project as federated data processing, it consists of the orchestration framework in which the Tier 3 nodes run applications on their data in a coordinated way.
 
 [↑ Back to glossary index](#glossary)
+
+## E
 
 ### ELIXIR Tools Platform
 
@@ -495,6 +504,8 @@ Any use case conducted by external partners (see also definition for “use case
 
 [↑ Back to glossary index](#glossary)
 
+## F
+
 ### FAIR Data Point (FDP)
 
 A FAIR Data Point is a system designed to store and publish metadata about datasets, ensuring they are Findable, Accessible, Interoperable, and Reusable (FAIR) on the web without requiring APIs. It standardizes metadata for Findability and Reusability while providing a uniform, open method for Accessing data. Although it enhances metadata Interoperability, the responsibility for data interoperability remains with the data provider. FDP empowers users to share their data online, similar to how early web servers enabled widespread text publishing.
@@ -571,6 +582,8 @@ The documents that reflect the economic and financial situation of the project, 
 
 [↑ Back to glossary index](#glossary)
 
+## G
+
 ### Genetic Data
 
 Personal data relating to the inherited or acquired genetic characteristics of a natural person which give unique information about the physiology or the health of that natural person and which result, in particular, from an analysis of a biological sample from the natural person in question [[36]](3-References.md#ref-36).
@@ -580,6 +593,8 @@ Personal data relating to the inherited or acquired genetic characteristics of a
 The party that encompasses the board of EUCAIM and can decide the approval, comment, or refusal of an application of data access, and data or tool provisioning, supported by legal, ethical, and technical boards.
 
 [↑ Back to glossary index](#glossary)
+
+## H
 
 ### Health data
 
@@ -607,6 +622,8 @@ Within the EUCAIM project framework, affiliated hospitals constitute a distinct 
 
 [↑ Back to glossary index](#glossary)
 
+## I
+
 ### Imaging folder structure
 
 Standardised organisation system used to structure and store DICOM imaging data within EUCAIM. It follows the hierarchy patient/study/series/images. The annotations are located at series level.
@@ -630,6 +647,8 @@ The primary aim of this call is to gather all necessary information to ensure th
 Any use case conducted by internal partners (see also definition for “use case”).
 
 [↑ Back to glossary index](#glossary)
+
+## L
 
 ### Learning Management System
 
@@ -664,6 +683,8 @@ A local node represents the infrastructure set up by a Data Holder that is consi
 Services run on the local node to reach the interoperability with the central hub.
 
 [↑ Back to glossary index](#glossary)
+
+## M
 
 ### Machine learning
 
@@ -704,11 +725,15 @@ The EUCAIM monitoring service tracks the status of its components by making peri
 
 [↑ Back to glossary index](#glossary)
 
+## N
+
 ### Non-personal data
 
 All data other than personal data. Note that non-personal data could be inextricably linked with personal data or be used in order to obtain inferences of persons’ qualities; in such case, GDPR and national data protection laws must apply [[5]](3-References.md#ref-5).
 
 [↑ Back to glossary index](#glossary)
+
+## O
 
 ### Ontology Requirements Specification Document (ORSD)
 
@@ -743,6 +768,8 @@ Component of the central hub that hosts the elements designed to orchestrate a f
 The process of evaluating and determining who has control and ownership of the data, tools, and results generated during the project. This assessment is crucial to ensure that all participants in the consortium understand and respect intellectual property rights, data access agreements, and the distribution of benefits derived from the developed technologies. [[44]](3-References.md#ref-44)
 
 [↑ Back to glossary index](#glossary)
+
+## P
 
 ### Patient Advisory Board
 
@@ -795,6 +822,12 @@ Any operation or set of operations which is performed on data or on datasets, wh
 
 Any form of automated processing of personal data consisting of the use of personal data to evaluate certain personal aspects relating to a natural person, in particular to analyse or predict aspects concerning that natural person's performance at work, economic situation, health, personal preferences, interests, reliability, behaviour, location or movements [[49]](3-References.md#ref-49).
 
+### Project acronym
+
+EUCAIM
+Grant Agreement: 101100633
+Call identifier: DIGITAL-2022-CLOUD-AI-02
+
 ### Properly Anonymized Data
 
 The process of irreversibly modifying personal data so that all personally identifiable information (PII) is removed or transformed in a way that the individual it originally referred to can no longer be identified, either directly or indirectly, by any means reasonably likely to be used. Properly anonymised data is no longer considered personal data. This ensures compliance with data protection regulations and safeguards patient privacy. Anonymised data can be used in research and in the development of artificial intelligence tools without compromising confidentiality, promoting secure collaboration and information exchange between institutions .[[4]](3-References.md#ref-4)
@@ -808,6 +841,8 @@ The processing of personal data in such a manner that the personal data can no l
 Metadata catalogue available to anonymous and authenticated users, offering the visualisation of the datasets metadata, with basic centralised filtering/faceted search options. This catalogue stores metadata, offering the Data Users basic descriptive information about the available datasets and their data access conditions.
 
 [↑ Back to glossary index](#glossary)
+
+## R
 
 ### Raw Data
 
@@ -846,6 +881,8 @@ AI that is designed, developed, evaluated, and monitored by employing an appropr
 Defined by the GDPR, methods by which to restrict the processing of data could include, inter alia, temporarily moving the selected data to another processing system, making the selected personal data unavailable to users, or temporarily removing published data from a website. In automated filing systems, the restriction of processing should in principle be ensured by technical means in such a manner that the personal data are not subject to further processing operations and cannot be changed. The fact that the processing of data is restricted should be clearly indicated in the system [[52]](3-References.md#ref-52).
 
 [↑ Back to glossary index](#glossary)
+
+## S
 
 ### Scientific Advisory Board
 
@@ -902,6 +939,8 @@ Keeping the statistical properties means that anyone analysing the synthetic dat
 The use of synthetic data is growing in many fields: from training of artificial intelligence models within the health sector to computer vision, image recognition and robotics fields [[55]](3-References.md#ref-55).
 
 [↑ Back to glossary index](#glossary)
+
+## T
 
 ### Technical and user management unit
 
@@ -965,22 +1004,27 @@ AI with proven characteristics such as efficacy, safety, fairness, robustness, t
 
 [↑ Back to glossary index](#glossary)
 
+## U
+
 ### Use case
 
 A use case refers to a specific scenario or situation in which the Cancer Image Europe platform is used to address a real-life scientific or clinical question where access and re-use of large amounts of cancer data can improve patient outcomes. The integration of use cases into the EUCAIM project will outline the technical, ethical and legal steps involved in the process, and will play a crucial role in defining requirements for the implementation of additional cancer image datasets, tools and AI algorithms to improve clinical outcomes.
 Example of use case: Identification of imaging biomarkers for early detection of breast cancer.
 Scenario: The use case focuses on leveraging the Cancer Image Europe platform to enhance the early detection of breast cancer through the identification of imaging biomarkers. The objective is to develop a robust and efficient AI algorithm to help radiologists in identifying potential malignancies at an early stage.
+
 Steps:
 1) Data collection and integration
 2) Training the AI model
 3) Validation of the AI model
 4) Integration in clinical workflows.
 In this example, a data holder could be a hospital with vast repository of breast imaging data (mammography, MR and  ultrasound images) committed to advancing early cancer detection, intending to incorporate this imaging data into the EUCAIM Infrastructure to contribute to the development of a robust breast cancer detection model; while an AI developers could be a Medtech SME specialised in the development of AI algorithms for healthcare applications aiming to leverage the EUCAIM infrastructure for the development, training, and validation of advanced AI algorithms focused on breast cancer diagnostics.
+
 Expected outcomes:
 - Improved early detection of breast cancer through the identification of relevant imaging biomarkers
 - Enhanced efficiency in radiology workflows, reducing the time required for manual review
 - Increased accuracy in distinguishing between benign and malignant lesions, reducing false positives and unnecessary interventions
 - Empowerment of healthcare professionals with a valuable decision support tool for more informed clinical decisions.
+
 Who could apply:
 - A data holder, e.g. a hospital with a repository of breast imaging data (mammography, MR and/or ultrasound images) committed to advancing early cancer detection, intending to incorporate this imaging data into the Cancer Image Europe Infrastructure to contribute to the development of a robust breast cancer detection model
 - AI developers, e.g. a MedTech SME specialised in the development of AI algorithms for healthcare applications aiming to leverage the Cancer Image Europe infrastructure for the development, training, and validation of advanced AI algorithms focused on breast cancer diagnostics.
@@ -1007,6 +1051,8 @@ Area of the Dashboard where the authenticated Data Users can add and remove the 
 
 [↑ Back to glossary index](#glossary)
 
+## V
+
 ### Validation Data
 
 Data used for providing an evaluation of the trained AI system and for tuning its non-learnable parameters and its learning process [[7]](3-References.md#ref-7).
@@ -1017,12 +1063,12 @@ A Verified Dataset is a dataset that has undergone validation to ensure complian
 
 [↑ Back to glossary index](#glossary)
 
+## W
+
 ### Wizard Tool
 
 An anonymization planning tool to identify potential risks, suggest mitigation strategies, and promote a secure-by-design approach for data anonymization. The tool helps data holders comply with EUCAIM’s privacy and accountability requirements by ensuring structured anonymization processes. However, due to non-standardized clinical data in Tier 1, its functionalities for clinical datasets are deactivated. The Wizard Tool enhances awareness of weak points in anonymization workflows and supports compliance with federated data-sharing frameworks.
-References:
 
-[↑ Back to glossary index](#glossary)
 
 
 ---
