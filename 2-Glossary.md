@@ -199,7 +199,7 @@ Infrastructure that provides data as a service. This infrastructure includes ser
 
 ### Data collection
 
-This term will not be used in the EUCAIM framework. Please refer to [Dataset](2-Glossary.md#dataset).
+This term will not be used in the EUCAIM framework. Please refer to [Dataset](#dataset).
 
 ### Data Concerning Health
 
