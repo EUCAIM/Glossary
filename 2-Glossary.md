@@ -296,15 +296,17 @@ The process of removing systematic differences between images acquired from diff
 
 A structured and systematic approach to the collection, integration, and storage of data related to the project. This model includes both clinical patient data and radiological image data, as well as other relevant information for medical image analysis. It is designed to ensure that data is efficiently obtained, securely stored, and properly used for the development and validation of artificial intelligence technologies. Additionally, the model promotes interoperability between different systems and platforms, ensuring that data can be shared and analyzed collaboratively among consortium partners, while always respecting ethical and privacy regulations. [[21]](3-References.md#ref-21)
 
-Data Ingestion
+
+### Data Holder (DH)
+
+A Data Holder refers to any natural or legal person, including entities, bodies, and research organisations in the health or care sectors, as well as European Union institutions, bodies, offices, and agencies, who has the right, obligation, or capability to make certain data available for research purposes. This may include registering, providing, restricting access to, or exchanging the data. Examples of Data Holders include data repositories, regional biobanks, clinical centres, cancer screening programs, public entities, pharmaceutical companies, data altruism initiatives, and publication repositories. These infrastructures may host one or more datasets for discovery and retrieval, and the exposure and access to data in the Dashboard will be provided at the dataset level.
+
+### Data Ingestion
 
 The process of importing and managing multi-omic and medical imaging data for clinical trials and research projects. This can be done manually through a visual interface, where users upload DICOM or ZIP files, define project details, patient information, and timepoints. Before any data leaves the user’s browser, it is automatically anonymized, and real-time progress updates are provided.
 
 This process primarily follows a batch ingestion approach, where data is uploaded and processed in discrete sets. However, it also integrates real-time ingestion through interoperability services, such as a DICOM node that enables direct communication using the DIMSE protocol and a DICOMWeb server that supports HTTP-based interactions via STOW-RS, QIDO-RS, and WADO-RS operations. Additionally, APIs allow verified users to ingest and manage non-DICOM data programmatically, including creating and editing eCRFs or handling subjects and datasets without relying on a user interface.
 
-### Data Holder (DH)
-
-A Data Holder refers to any natural or legal person, including entities, bodies, and research organisations in the health or care sectors, as well as European Union institutions, bodies, offices, and agencies, who has the right, obligation, or capability to make certain data available for research purposes. This may include registering, providing, restricting access to, or exchanging the data. Examples of Data Holders include data repositories, regional biobanks, clinical centres, cancer screening programs, public entities, pharmaceutical companies, data altruism initiatives, and publication repositories. These infrastructures may host one or more datasets for discovery and retrieval, and the exposure and access to data in the Dashboard will be provided at the dataset level.
 
 ### Data intermediation service
 
@@ -326,13 +328,10 @@ The process of matching fields from multiple datasets into a centralised databas
 
 Software in the federated analysis architecture that allocates the data requested by the researchers in a predefined local storage space in the Federated Data Node. It is launched as a preliminary step once the FP Daemon at the FDN receives a command to run a software (or a workflow). The DMT does a validation on the dataset-ids that are sent, filtering out the ones that are not for the node where it is run.
 
-Data Materialisation Service
+### Data Materialisation Service
 
 Services which ensure that datasets requested for federated analysis are properly retrieved, validated, and made available for computational workflows. These services operate within Federated Data Nodes, which store and manage datasets while providing computational resources. The process is facilitated by the Data Materializer Tool, which interacts with each Federated Data Node’s Data Materialisation Service to execute dataset retrieval securely. The materialisation process follows predefined configurations, ensuring controlled access, authentication, and compliance within the EUCAIM infrastructure.
 
-Data Population Monitoring Team (DPMT)
-
-The objective of this interdisciplinary Team is to define a set of KPIs related to data holders, data, users, software and user training. These KPIs will be monitored and accessible through the Data Population Monitoring Dashboard (DPMD).
 
 ### Data Maturity Model Adoption (DMM)
 
@@ -343,6 +342,11 @@ A structured framework that measures and improves the quality, integrity, and us
 - It ensures that the data used to train artificial intelligence models are accurate, complete, and well-managed.
 
 - It also facilitates the identification of areas for improvement in data management processes and ensures that the data meet the necessary standards for research and clinical implementation, while respecting ethical and privacy regulations.
+
+### Data Population Monitoring Team (DPMT)
+
+The objective of this interdisciplinary Team is to define a set of KPIs related to data holders, data, users, software and user training. These KPIs will be monitored and accessible through the Data Population Monitoring Dashboard (DPMD).
+
 
 ### Data Protection Impact Assessment (DPIA)
 
@@ -356,7 +360,7 @@ Body that plays the role of the Data Protection Officer (DPO) during both the pr
 
 An approach in which data is actively sent from the participating institutions to a central repository or analysis platform. Instead of data being passively requested, the data push model implies that the parties involved in the project continuously and proactively provide their data. This model is key to integrating large volumes of clinical and radiological data, allowing the data to be centralized and accessible to consortium partners who need it for the development and validation of artificial intelligence technologies in medical image analysis. Furthermore, it ensures greater efficiency in data collection, facilitating its analysis and contributing to the progress of the project. [[21]](3-References.md#ref-21)
 
-Data Materialisation Service
+### Data Materialisation Service
 
 When a researcher requests access to specific data, it needs to be extracted, formatted, and prepared for analysis. The Data Materialization Service handles this process by creating structured datasets that are ready to be used in federated AI training or large-scale clinical studies. It ensures that the data is consistent, properly formatted, and compliant with EUCAIM’s interoperability standards.
 
@@ -380,7 +384,7 @@ For the purpose of data protection, data quality refers to a set of principles l
 
 - Integrity and confidentiality
 
-Data quarantine
+### Data quarantine
 
 Data Quarantine is the temporary isolation of ingested datasets for quality checks before they are officially registered or made accessible. In EUCAIM, datasets in reference nodes undergo a revision phase to verify integrity, compliance with Tier levels, and adherence to the Common Data Model (CDM) before being published in the Public Catalogue. Imaging datasets in DICOM format can be released while associated clinical data remains in quarantine if it requires further validation. This process ensures data accuracy, consistency, and compliance, following standard data quality workflows where data is inspected in a temporary location before reaching its final destination.
 
@@ -400,7 +404,7 @@ Agreement between two or more parties that outline which data will be shared and
 
 Data stored outside of an organisation’s host country are still subject to the laws of the country where the data are stored [[26]](3-References.md#ref-26).
 
-Data space:
+### Data space:
  
 A distributed system delineated by a governance framework, facilitating secure and reliable data transactions among participants, with a focus on upholding trust and data sovereignty. A data space typically consists of one or more infrastructures and supports various use cases.
 
