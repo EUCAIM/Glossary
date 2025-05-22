@@ -296,6 +296,7 @@ The process of removing systematic differences between images acquired from diff
 
 A structured and systematic approach to the collection, integration, and storage of data related to the project. This model includes both clinical patient data and radiological image data, as well as other relevant information for medical image analysis. It is designed to ensure that data is efficiently obtained, securely stored, and properly used for the development and validation of artificial intelligence technologies. Additionally, the model promotes interoperability between different systems and platforms, ensuring that data can be shared and analyzed collaboratively among consortium partners, while always respecting ethical and privacy regulations. [[21]](3-References.md#ref-21)
 
+
 ### Data Holder (DH)
 
 A Data Holder refers to any natural or legal person, including entities, bodies, and research organisations in the health or care sectors, as well as European Union institutions, bodies, offices, and agencies, who has the right, obligation, or capability to make certain data available for research purposes. This may include registering, providing, restricting access to, or exchanging the data. Examples of Data Holders include data repositories, regional biobanks, clinical centres, cancer screening programs, public entities, pharmaceutical companies, data altruism initiatives, and publication repositories. These infrastructures may host one or more datasets for discovery and retrieval, and the exposure and access to data in the Dashboard will be provided at the dataset level.
@@ -305,6 +306,7 @@ A Data Holder refers to any natural or legal person, including entities, bodies,
 The process of importing and managing multi-omic and medical imaging data for clinical trials and research projects. This can be done manually through a visual interface, where users upload DICOM or ZIP files, define project details, patient information, and timepoints. Before any data leaves the user's browser, it is automatically anonymized, and real-time progress updates are provided.
 
 This process primarily follows a batch ingestion approach, where data is uploaded and processed in discrete sets. However, it also integrates real-time ingestion through interoperability services, such as a DICOM node that enables direct communication using the DIMSE protocol and a DICOMWeb server that supports HTTP-based interactions via STOW-RS, QIDO-RS, and WADO-RS operations. Additionally, APIs allow verified users to ingest and manage non-DICOM data programmatically, including creating and editing eCRFs or handling subjects and datasets without relying on a user interface.
+
 
 ### Data intermediation service
 
@@ -330,9 +332,11 @@ Services which ensure that datasets requested for federated analysis are properl
 
 When a researcher requests access to specific data, it needs to be extracted, formatted, and prepared for analysis. The Data Materialization Service handles this process by creating structured datasets that are ready to be used in federated AI training or large-scale clinical studies. It ensures that the data is consistent, properly formatted, and compliant with EUCAIM's interoperability standards.
 
+
 ### Data Materializer Tool (DMT)
 
 Software in the federated analysis architecture that allocates the data requested by the researchers in a predefined local storage space in the Federated Data Node. It is launched as a preliminary step once the FP Daemon at the FDN receives a command to run a software (or a workflow). The DMT does a validation on the dataset-ids that are sent, filtering out the ones that are not for the node where it is run.
+
 
 ### Data Maturity Model Adoption (DMM)
 
@@ -347,6 +351,7 @@ A structured framework that measures and improves the quality, integrity, and us
 ### Data Population Monitoring Team (DPMT)
 
 The objective of this interdisciplinary Team is to define a set of KPIs related to data holders, data, users, software and user training. These KPIs will be monitored and accessible through the Data Population Monitoring Dashboard (DPMD).
+
 
 ### Data Protection Impact Assessment (DPIA)
 
