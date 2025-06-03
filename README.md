@@ -1,7 +1,6 @@
 ﻿Glossary
 
-Version 5.0
-![](figures/Aspose.Words.c57a29f2-0e91-49f4-8334-13db01a72da8.001.png)
+![Version 5.0](figures/Aspose.Words.c57a29f2-0e91-49f4-8334-13db01a72da8.001.png)
 
 
 
