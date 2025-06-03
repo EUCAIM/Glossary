@@ -328,10 +328,6 @@ The process of matching fields from multiple datasets into a centralised databas
 
 Services which ensure that datasets requested for federated analysis are properly retrieved, validated, and made available for computational workflows. These services operate within Federated Data Nodes, which store and manage datasets while providing computational resources. The process is facilitated by the Data Materializer Tool, which interacts with each Federated Data Node's Data Materialisation Service to execute dataset retrieval securely. The materialisation process follows predefined configurations, ensuring controlled access, authentication, and compliance within the EUCAIM infrastructure.
 
-### Data Materialisation Service
-
-When a researcher requests access to specific data, it needs to be extracted, formatted, and prepared for analysis. The Data Materialization Service handles this process by creating structured datasets that are ready to be used in federated AI training or large-scale clinical studies. It ensures that the data is consistent, properly formatted, and compliant with EUCAIM's interoperability standards.
-
 
 ### Data Materializer Tool (DMT)
 
