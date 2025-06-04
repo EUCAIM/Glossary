@@ -182,7 +182,7 @@ Collection (Imaging Collection)
 
 An aggregation of one or more datasets of medical images registered in the catalogue.
 
-Collection Explorer: refer to [User](#user)'s Library
+Collection Explorer: refer to [User's Library](#users-library)
 
 ### Common Data Model (CDM)
 
@@ -254,7 +254,7 @@ Infrastructure that provides data as a service. This infrastructure includes ser
 
 ### Data collection
 
-This term will not be used in the EUCAIM framework. Please refer to .Dataset
+This term will not be used in the EUCAIM framework. Please refer to [Dataset](#dataset)
 
 ### Data Concerning Health
 
