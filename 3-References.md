@@ -3,7 +3,7 @@
 <table style="width:100%; border-collapse:collapse;">
   <tr>
     <td style="width:5%; vertical-align:top;"><a name="ref-1">[1]</a></td>
-    <td style="text-align: justify;">European Commission, “Affiliated Entities – Explanations for IMCAP 2024,” 2024. Accessed: Mar. 13, 2025. [Online]. Available: https://agriculture.ec.europa.eu/system/files/2023-10/affiliated-entities-explanations-imcap-2024_en.pdf holaaa</td>
+    <td style="text-align: justify;">European Commission, “Affiliated Entities – Explanations for IMCAP 2024,” 2024. Accessed: Mar. 13, 2025. [Online]. Available: https://agriculture.ec.europa.eu/system/files/2023-10/affiliated-entities-explanations-imcap-2024_en.pdf </td>
   </tr>
   <tr>
     <td style="width:5%; vertical-align:top;"><a name="ref-2">[2]</a></td>
