@@ -234,7 +234,7 @@
     <td style="text-align: justify;">“Art. 4(12) GDPR, Regulation (EU) 2016/679 of the European,” [Online].</td>
   </tr>
   <tr>
-    <td style="width:5%; vertical-align:top;"><a name="ref-59">[59]</a></td>
+    <td style="width:5%; vertical-align:top;"><a id="ref-59">[59]</a></td>
     <td style="text-align: justify;">[Online].Available: https://edps.europa.eu/press-publications/publications/techsonar/synthetic-data_en.</td>
   </tr>
 </table>
