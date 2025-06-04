@@ -178,11 +178,13 @@ Paradigm for enabling network access to a scalable and elastic pool of shareable
 
 Document that expresses the willingness of the Parties to collaborate by establishing an overarching framework to facilitate interaction and exchange of information between them.
 
-Collection (Imaging Collection)
+### Collection (Imaging Collection)
 
 An aggregation of one or more datasets of medical images registered in the catalogue.
 
-Collection Explorer: refer to [User's Library](#users-library)
+### Collection Explorer
+
+Please refer to [User's Library](#users-library)
 
 ### Common Data Model (CDM)
 
