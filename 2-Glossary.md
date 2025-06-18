@@ -19,9 +19,7 @@ EUCAIM Governing Body that controls the access to the Atlas of Cancer Images. It
 
 ### Access Negotiator
 
-The Access Negotiator, or Negotiator, is a specialised tool integrated into the EUCAIM Dashboard and designed to facilitate the exchange of documents and information between Data User and the Access Committee.
-
-On the one hand, the Negotiator allows users to submit requests for data or software to one or several holders as selected in a previous discovery step in the EUCAIM catalogue. On the other hand, the Negotiator also allows users to build new research projects by facilitating the negotiation with a specific EUCAIM network of contacts according to their objectives and needs. In both cases, the negotiation mechanism allows the Access Committee and, ultimately the Data or Software Holder itself, where appropriate, to (a) to obtain more information from the requestor to better understand the reason of the request and the requested data in this broadcast mode, (b) to enter a negotiation process with the requester, or (c) to step back from a request in case thinking of not being able to fulfil what was requested for some reason.
+The Access Negotiator, or Negotiator, is a specialised tool integrated into the EUCAIM Dashboard and designed to facilitate the exchange of documents and information between Data User and the Access Committee. On the one hand, the Negotiator allows users to submit requests for data or software to one or several holders as selected in a previous discovery step in the EUCAIM catalogue. On the other hand, the Negotiator also allows users to build new research projects by facilitating the negotiation with a specific EUCAIM network of contacts according to their objectives and needs. In both cases, the negotiation mechanism allows the Access Committee and, ultimately the Data or Software Holder itself, where appropriate, to (a) to obtain more information from the requestor to better understand the reason of the request and the requested data in this broadcast mode, (b) to enter a negotiation process with the requester, or (c) to step back from a request in case thinking of not being able to fulfil what was requested for some reason.
 
 ### Administrative Project Coordinator (AdmCo)
 
@@ -41,7 +39,7 @@ Aggregated data is pooled data. Statistical data about several individuals that 
 
 ### AI Impact Assessment
 
-A structured process used to evaluate the potential risks, benefits, and societal effects of artificial intelligence systems before and after deployment. It considers ethical, legal, social, and economic impacts, particularly on fundamental rights, safety, and compliance with EU values. AIIAs aim to ensure trustworthy and responsible development of AI, especially in high-risk applications, as outlined in the proposed European AI legal framework. [[3]](3-References.md#ref-3)
+A structured process used to evaluate the potential risks, benefits, and societal effects of artificial intelligence systems before and after deployment. It considers ethical, legal, social, and economic impacts, particularly on fundamental rights, safety, and compliance with EU values. The AI Impact Assessment aims to ensure trustworthy and responsible development of AI, especially in high-risk applications, as outlined in the proposed European AI legal framework. [[3]](3-References.md#ref-3)
 
 ### Analysis Platform
 
@@ -62,10 +60,6 @@ The processing of personal data in such a manner that the personal data can no l
 ### Artificial Intelligence Act
 
 Proposed legislation by the European Union (EU) aimed at regulating Artificial Intelligence (AI) technologies within the EU. The act seeks to ensure ethical, transparent, and accountable AI practices while fostering innovation and competitiveness [[4]](3-References.md#ref-4).
-
-### Assessment List for Trustworthy Artificial Intelligence (ALTAI)
-
-Set of guidelines and criteria designed to assess the reliability of artificial intelligence (AI) systems for medical image analysis in oncology. [[5]](3-References.md#ref-5)
 
 ### Atlas of Cancer Images
 
@@ -123,7 +117,7 @@ Website intended for Data Users who want to use EUCAIM data for analysis in the 
 
 ### Central Hub
 
-Infrastructure comprising the Central Repository, Central Dashboard, and the services and tools provided by the EUCAIM platform.
+Infrastructure comprising the Reference Nodes, Central Dashboard, and the services and SW provided by the EUCAIM platform.
 
 ### Central Hub Office (CHO)
 
@@ -138,14 +132,6 @@ The set of guidelines, processes, and organizational structures that govern the 
 - It defines how technological infrastructures and platforms, patient data collection, and collaborative workflows among consortium partners will be managed.
 
 - It outlines the responsibilities and protocols to ensure that the project's objectives are met efficiently and in compliance with ethical and legal standards.
-
-### Central Repository
-
-Please refer to [Reference Node](#reference-node)
-
-### Central Storage
-
-Please refer to [Reference Node](#reference-node)
 
 ### Central Validation Services (CVS)
 
@@ -175,21 +161,22 @@ Network of computing facilities providing remote data storage and processing ser
 
 Paradigm for enabling network access to a scalable and elastic pool of shareable physical or virtual resources with administration on-demand [[12]](3-References.md#ref-12).
 
+### Code system mapping
+
+If the data store uses a different code system(s) than the EUCAIM's Hyper-Ontology (LOINC, SNOMED, ICD10…), code mapping needs to be implemented, to translate the codes from the search query into the codes in the data store. Code system mapping can be a part of the query mapping component, or a separate component.
+
 ### Collaboration Agreement (ColA)
 
 Document that expresses the willingness of the Parties to collaborate by establishing an overarching framework to facilitate interaction and exchange of information between them.
 
-### Collection (Imaging Collection)
+
+### Collection
 
 An aggregation of one or more datasets of medical images registered in the catalogue.
 
 ### Collection Explorer
 
-Please refer to [User's Library](#users-library)
-
-### Common Data Model (CDM)
-
-A CDM is a standardised framework that defines both the structure and semantics of diverse datasets using ontologies, coding systems, and formal documentation. Clinical data standards provide a common structure and content of observational data, enabling interoperability and more efficient analyses that can produce reliable evidence. Within the EUCAIM project, two potential candidates for the CDM have been identified: HL7 FHIR and OHDSI-OMOP.
+Please refer to [User's library](#users-library)
 
 ### Compliance unit
 
@@ -257,7 +244,7 @@ Infrastructure that provides data as a service. This infrastructure includes ser
 
 ### Data collection
 
-This term will not be used in the EUCAIM framework. Please refer to [Dataset](#dataset)
+This term will not be used in the EUCAIM framework. Please refer to [Dataset](#dataset).
 
 ### Data Concerning Health
 
@@ -270,10 +257,6 @@ A person who is responsible for the quality and FAIRness of the health-related d
 ### Data discoverability
 
 The ability or a mechanism to browse and locate available data relevant to a specific user's purpose (e.g., research project) in a non-targeted search. Data is more discoverable if the datasets have a metadata catalogue, and the metadata catalogue is publicly accessible. Discoverability is related to findability from the FAIR principles.
-
-### Data FAIRification
-
-Data FAIRification is the process of ensuring that datasets comply with FAIR principles (Findable, Accessible, Interoperable, and Reusable) before being published in the EUCAIM Public Catalogue. Compliance is assessed based on Tier classifications, requiring persistent identifiers for data and metadata. The FAIR EVA tool, with a EUCAIM-specific plugin, verifies adherence to RDA indicators and mandatory metadata attributes. FAIR Data Points including the central EUCAIM Catalogue FDP, serve as compliance checkpoints, allowing Data Holders (DHs) to validate datasets before registration.
 
 ### Data Federation and Interoperability Framework (DFIF)
 
@@ -299,7 +282,6 @@ The process of removing systematic differences between images acquired from diff
 
 A structured and systematic approach to the collection, integration, and storage of data related to the project. This model includes both clinical patient data and radiological image data, as well as other relevant information for medical image analysis. It is designed to ensure that data is efficiently obtained, securely stored, and properly used for the development and validation of artificial intelligence technologies. Additionally, the model promotes interoperability between different systems and platforms, ensuring that data can be shared and analyzed collaboratively among consortium partners, while always respecting ethical and privacy regulations. [[21]](3-References.md#ref-21)
 
-
 ### Data Holder (DH)
 
 A Data Holder refers to any natural or legal person, including entities, bodies, and research organisations in the health or care sectors, as well as European Union institutions, bodies, offices, and agencies, who has the right, obligation, or capability to make certain data available for research purposes. This may include registering, providing, restricting access to, or exchanging the data. Examples of Data Holders include data repositories, regional biobanks, clinical centres, cancer screening programs, public entities, pharmaceutical companies, data altruism initiatives, and publication repositories. These infrastructures may host one or more datasets for discovery and retrieval, and the exposure and access to data in the Dashboard will be provided at the dataset level.
@@ -309,7 +291,6 @@ A Data Holder refers to any natural or legal person, including entities, bodies,
 The process of importing and managing multi-omic and medical imaging data for clinical trials and research projects. This can be done manually through a visual interface, where users upload DICOM or ZIP files, define project details, patient information, and timepoints. Before any data leaves the user's browser, it is automatically anonymized, and real-time progress updates are provided.
 
 This process primarily follows a batch ingestion approach, where data is uploaded and processed in discrete sets. However, it also integrates real-time ingestion through interoperability services, such as a DICOM node that enables direct communication using the DIMSE protocol and a DICOMWeb server that supports HTTP-based interactions via STOW-RS, QIDO-RS, and WADO-RS operations. Additionally, APIs allow verified users to ingest and manage non-DICOM data programmatically, including creating and editing eCRFs or handling subjects and datasets without relying on a user interface.
-
 
 ### Data intermediation service
 
@@ -332,10 +313,13 @@ The process of matching fields from multiple datasets into a centralised databas
 Services which ensure that datasets requested for federated analysis are properly retrieved, validated, and made available for computational workflows. These services operate within Federated Data Nodes, which store and manage datasets while providing computational resources. The process is facilitated by the Data Materializer Tool, which interacts with each Federated Data Node's Data Materialisation Service to execute dataset retrieval securely. The materialisation process follows predefined configurations, ensuring controlled access, authentication, and compliance within the EUCAIM infrastructure.
 
 
+### Data Materialisation Service
+
+When a researcher requests access to specific data, it needs to be extracted, formatted, and prepared for analysis. The Data Materialization Service handles this process by creating structured datasets that are ready to be used in federated AI training or large-scale clinical studies. It ensures that the data is consistent, properly formatted, and compliant with EUCAIM's interoperability standards.
+
 ### Data Materializer Tool (DMT)
 
 Software in the federated analysis architecture that allocates the data requested by the researchers in a predefined local storage space in the Federated Data Node. It is launched as a preliminary step once the FP Daemon at the FDN receives a command to run a software (or a workflow). The DMT does a validation on the dataset-ids that are sent, filtering out the ones that are not for the node where it is run.
-
 
 ### Data Maturity Model Adoption (DMM)
 
@@ -350,7 +334,6 @@ A structured framework that measures and improves the quality, integrity, and us
 ### Data Population Monitoring Team (DPMT)
 
 The objective of this interdisciplinary Team is to define a set of KPIs related to data holders, data, users, software and user training. These KPIs will be monitored and accessible through the Data Population Monitoring Dashboard (DPMD).
-
 
 ### Data Protection Impact Assessment (DPIA)
 
@@ -404,13 +387,12 @@ Agreement between two or more parties that outline which data will be shared and
 
 Data stored outside of an organisation's host country are still subject to the laws of the country where the data are stored [[26]](3-References.md#ref-26).
 
-### Data space
-
+Data space: 
 A distributed system delineated by a governance framework, facilitating secure and reliable data transactions among participants, with a focus on upholding trust and data sovereignty. A data space typically consists of one or more infrastructures and supports various use cases.
 
 ### Data steward
 
-A person who has an administrative role; and does not really use the data. Data Stewardscreate guidelines to make data FAIR and advice on how to do it. They might have direct responsibility on the data at hand (processors) or not.
+A person who has an administrative role; and does not really use the data. Data Stewards create guidelines to make data FAIR and advice on how to do it. They might have direct responsibility on the data at hand (processors) or not.
 
 ### Data subject
 
@@ -466,7 +448,7 @@ Virtual meeting organized to foster the exchange of knowledge, experiences, and 
 
 ### Distributed Data Processing
 
-Also referred in this project as federated data processing, it consists of the orchestration framework in which the Tier 3 nodes run applications on their data in a coordinated way.
+Also referred to in this project as federated data processing, it consists of the orchestration framework in which the Tier 3 nodes run applications on their data in a coordinated way.
 
 [↑ Back to glossary index](#glossary)
 
@@ -533,10 +515,6 @@ The European Health Data Space (EHDS) is a proposed framework under European Uni
 ### Evangelisation
 
 The process of promoting, disseminating, and generating acceptance among stakeholders about the technologies and solutions developed within the project. This includes raising awareness, education, and the promotion of innovations related to medical image analysis and the use of artificial intelligence, with the aim of ensuring their adoption and proper implementation in clinical and scientific environments.
-
-### Explanatory Text
-
-A data transaction denotes the sharing of data among involved participants, encompassing technical, financial, legal, and organisational arrangements required to facilitate the availability of a dataset from Participant A to Participant B. The physical transfer of data may or may not occur concurrently with the data transaction.
 
 ### External Open Call
 
@@ -608,12 +586,6 @@ Technical framework designed to facilitate federated analysis, which involves pr
 
 Daemon that operates at each data node within the federated processing infrastructure. It connects to the Message Broker to obtain assigned tasks and initiates the execution of software required for the federated processing. The Orchestrator interacts with the local execution infrastructure, ensuring the proper execution of tasks on each data node.
 
-### Federated Processing Dashboard (FP Dashboard)
-
-The Federated Processing Dashboard is an interactive interface within EUCAIM that enables real-time monitoring and management of federated data processing tasks. It allows researchers and data providers to track ongoing AI model training, data preprocessing, and analytical workflows across multiple federated nodes. The dashboard provides visibility into job statuses, resource utilization, and potential bottlenecks, ensuring computations run efficiently and without unnecessary delays.
-
-It also integrates security and compliance monitoring, ensuring that all federated tasks adhere to EUCAIM's data governance policies. By offering a centralized interface for managing distributed computing operations, the FP Dashboard enhances usability and facilitates seamless research collaboration.
-
 ### Federated Processing Orchestrator (FP Orchestrator)
 
 The Federated Processing Orchestrator is responsible for coordinating and managing distributed data processing tasks across multiple nodes within EUCAIM's federated infrastructure. It acts as a central mechanism that ensures computational workloads are efficiently scheduled, distributed, and executed while maintaining security and compliance with data protection regulations.
@@ -632,11 +604,7 @@ There are two areas of consideration in federated search:
 
 - On the central core services, which consist of the front-end, its back-end, the federated query brokering system, and the certificate storage.
 
-- On the provider's side, the query dispatcher, the store, and the data holders customised components to translate the query into the local format.
-
-### Federated Search
-
-Please refer to [Federated Query](#federated-query).
+- On the provider's side, the query dispatcher, the store, and the data holders customised components to translate the queries (and the codes if different code systems than EUCAIM CDM are used) into the locally supported format.
 
 ### Filing system
 
@@ -732,7 +700,7 @@ In Europe, the licence is generally considered as a contract between a Licensor 
 
 ### Life Science Login (LS-AAI)
 
-The Life Science Login () is the Authentication and Authorization Infrastructure (AAI) used by the EUCAIM services to manage the access to services and data. The Life Science Login enables researchers to use their home organisation credentials or community or other identities (e.g. Google, Linkedin, LS ID) to sign in and access data and services they need. It also allows service providers (both in academia and industry) to control and manage access rights of their users and create different access levels for research groups or international projects.https://lifescience-ri.eu/ls-login/
+The Life Science Login (https://lifescience-ri.eu/ls-login/) is the Authentication and Authorization Infrastructure (AAI) used by the EUCAIM services to manage the access to services and data. The Life Science Login enables researchers to use their home organisation credentials or community or other identities (e.g. Google, Linkedin, LS ID) to sign in and access data and services they need. It also allows service providers (both in academia and industry) to control and manage access rights of their users and create different access levels for research groups or international projects.
 
 ### Limited governance framework
 
@@ -748,7 +716,7 @@ A local node represents  the infrastructure set up by a Data Holder that  is con
 
 ### Local Services
 
-Services run on the local node to reach the interoperability with the central hub.
+Services run on the local node to reach interoperability with the central hub.
 
 [↑ Back to glossary index](#glossary)
 
@@ -764,17 +732,13 @@ The operational body responsible for the monitoring of the technical progress of
 
 Upon project end, the MB is also envisioned to be in charge of any decision making regarding any technical implementations and quality control of all operations regarding the day-to-day functioning of the infrastructure, including the coordination of scientific activities around it.
 
+### Mapping Component
+
+A component translating the abstract search tree (AST) containing the query parameters into a query adapted to the data store's data model, such as Structured Query Language (SQL) for sites providing OHDSI OMOP-CDM compliant data, or Clinical Quality Language (CQL) for sites providing FHIR compliant data. The Mapping Component is developed by the Provider and runs together with the Query Dispatcher and the data store. The Query Dispatcher sends the AST to the Mapping Component and receives the search results from it. If the translation into the query language of the data store is already done by the Query Dispatcher, no Mapping Component is needed, and the Query Dispatcher queries the data store directly.
+
 ### Marketplace
 
 Centralised platform within the EUCAIM federation that facilitates the exchange and distribution of processing tools, services and applications developed by Software Providers. It serves as a repository where Software Providers can contribute their tools for federated processing or data preprocessing purposes to be used by Data Users.
-
-### Mediator
-
-A component responsible for connecting to the central infrastructure, translating the federated query to the site's Structured Query Language (SQL) for sites providing OHDSI OMOP-CDM compliant data, Clinical Query Language (CQL) for sites providing FHIR compliant data), aggregating (and optionally obfuscating) the results, and finally returning the aggregated results to the central components. The Mediator acts as a sort of middleware and is deployed at the site of each Data Junction.
-
-### Memorandum of Understanding (MoU)
-
-A memorandum of understanding (MoU) is a type of agreement between parties. It expresses a convergence of will between the parties, indicating an intended common line of action. It is often used either in cases where parties do not imply a legal commitment or in situations where the parties cannot create a legally enforceable agreement.
 
 ### Message Broker
 
@@ -826,7 +790,7 @@ The following use cases are accepted for this call:
 
 ### Open data
 
-Data that is freely available to everyone to use and republish as they wish, without restrictions from copyright, patents or other mechanisms of control. Open licence is a licence agreement which contains provisions that allow other individuals to  another creator's work, giving them four major freedoms. Without a special licence, these uses are normally prohibited by copyright law or commercial licence. Most free licences are worldwide, royalty-free, non-exclusive, and perpetual (see g). Free licences are often the basis of crowdsourcing and crowdfunding projects [[43]](3-References.md#ref-43).reusecopyriht durations
+Data that is freely available to everyone to use and republish as they wish, without restrictions from copyright, patents or other mechanisms of control. Open licence is a licence agreement which contains provisions that allow other individuals to reuse another creator's work, giving them four major freedoms. Without a special licence, these uses are normally prohibited by copyright law or commercial licence. Most free licences are worldwide, royalty-free, non-exclusive, and perpetual (see copyright durations). Free licences are often the basis of crowdsourcing and crowdfunding projects [[43]](3-References.md#ref-43).
 
 ### Open science
 
@@ -854,7 +818,7 @@ A group of patients or patient representatives who provide guidance and insights
 
 ### Permission
 
-In the realm of data governance, "permission" denotes the authorization granted to Data Users, empowering them with the right to process non-personal data. (DGA Art. 2(6)) []
+In the realm of data governance, "permission" denotes the authorization granted to Data Users, empowering them with the right to process non-personal data. (DGA Art. 2(6))
 
 ### Personal data
 
@@ -918,9 +882,9 @@ Metadata catalogue available to anonymous and authenticated users, offering the 
 
 ## Q
 
-### Query Alignment
+### Query mapping
 
-A core component of EUCAIM's federated query system, responsible for translating standardized queries (structured in Abstract Syntax Tree (AST) syntax) into the local query languages used by different nodes across the federation. Since each data provider may store its datasets using different database architectures and formats, Query Alignment ensures that researchers can run a single search query and retrieve results from multiple institutions without needing to manually adjust for differences in data representation. This component plays a crucial role in enabling semantic interoperability between distributed datasets.
+Translating an abstract search tree into the query language supported by the data store. Done by the Mapping component.
 
 [↑ Back to glossary index](#glossary)
 
@@ -994,21 +958,9 @@ Information that is regulated by law due to possible risk for plants, animals, i
 
 Document that establishes the terms and conditions for integrating a local node into the EUCAIM Federation. It will define the level of service, access to data and processing resources, technical interoperability requirements, and support supplied by the providers. The SLA will also outline service availability targets, constraints, and contact points for addressing any issues or inquiries related to the services within the federation.
 
-### Software Onboarding (PoC)
-
-Process of integrating new tools, AI models, and pre-processing software into the platform while ensuring compliance with technical, security, and quality standards. It involves conceptual validation to align software with EUCAIM's goals, technical validation to assess infrastructure compatibility, and integration validation to ensure seamless operation. Software providers must submit documentation, demonstrations, and validation reports, while EUCAIM validators oversee compliance and risk assessment, addressing security, ethical, and performance concerns. Once approved, the software is registered in bio.tools under the EUCAIM collection, making it accessible for researchers and data scientists.
-
 ### Software Provider (SP)
 
 The Software Provider refers to any entity (startups, enterprises, research institutions, government agencies, non-profit organisations) that would like to contribute with processing tools, services, or applications they have developed to the EUCAIM's marketplace for use in the federated processing purposes of the platform.
-
-### Stakeholder
-
-A person such as an institution/hospital/research community who is involved with an organisation, society, etc. and therefore has responsibilities towards it and an interest in its success.
-
-### Stakeholder Advisory Board (SAB)
-
-A group of experts and key representatives from various stakeholders to the consortium, such as scientific, clinical, regulatory, technological organizations, or industry representatives. This group aims to provide strategic advice and guidance on the project's activities and decisions, ensuring that the solutions and technologies developed are relevant and aligned with the needs of the sector, ethical and regulatory standards, and scientific advancements. [[21]](3-References.md#ref-21)
 
 ### Stakeholder Forum (SF)
 
@@ -1060,11 +1012,11 @@ Workshops that provide insights into platforms and tools relevant to distributed
 
 Data used for providing an independent evaluation of the trained and validated AI system in order to confirm the expected performance of that system before its placing on the market or putting into service [[8]](3-References.md#ref-8).
 
-The General Data Protection Regulation (GDPR) is an EU-wide regulation that aims to protect individuals' rights and freedoms concerning the processing of personal data and the free movement of such data across the EU. The GDPR establishes detailed guidelines for lawful data processing, ensuring the quality and legitimacy of the data, and requiring special protection for sensitive categories of data. It also mandates transparency, giving data subjects the right to be informed, access their data, object to its processing, and ensure the confidentiality and security of personal data. The GDPR includes rules for the transfer of personal data to third countries and requires each EU Member State to establish a supervisory authority to oversee compliance.
+### The General Data Protection Regulation (GDPR)
 
-### Tiers of technical data compliance
+GDPR is an EU-wide regulation that aims to protect individuals' rights and freedoms concerning the processing of personal data and the free movement of such data across the EU. The GDPR establishes detailed guidelines for lawful data processing, ensuring the quality and legitimacy of the data, and requiring special protection for sensitive categories of data. It also mandates transparency, giving data subjects the right to be informed, access their data, object to its processing, and ensure the confidentiality and security of personal data. The GDPR includes rules for the transfer of personal data to third countries and requires each EU Member State to establish a supervisory authority to oversee compliance.
 
-To accommodate different levels of data compliance with the , three technical tiers have been established. These tiers are scalable and allow data to be upgraded as the datasets are used in new research projects. Each tier offers increased visibility and usability of the data within the EUCAIM community. DFF
+### To accommodate different levels of data compliance with the DFF, three technical tiers have been established. These tiers are scalable and allow data to be upgraded as the datasets are used in new research projects. Each tier offers increased visibility and usability of the data within the EUCAIM community.
 
 - Minimum Compliance: public metadata catalogue search
 
@@ -1110,38 +1062,16 @@ AI with proven characteristics such as efficacy, safety, fairness, robustness, t
 
 ### Use case
 
-A use case refers to a specific scenario or situation in which the Cancer Image Europe platform is used to address a real-life scientific or clinical question where access and re-use of large amounts of cancer data can improve patient outcomes. The integration of use cases into the EUCAIM project will outline the technical, ethical and legal steps involved in the process, and will play a crucial role in defining requirements for the implementation of additional cancer image datasets, tools and AI algorithms to improve clinical outcomes.
+A use case refers to a specific scenario or situation in which the Cancer Image Europe platform is used to address a real-life scientific or clinical question where access and re-use of large amounts of cancer data can improve patient outcomes. The integration of use cases into the EUCAIM project will outline the technical, ethical and legal steps involved in the process, and will play a crucial role in defining requirements for the implementation of additional cancer image datasets, tools and AI algorithms to improve clinical outcomes. 
 Example of use case: Identification of imaging biomarkers for early detection of breast cancer.
 
 Scenario: The use case focuses on leveraging the Cancer Image Europe platform to enhance the early detection of breast cancer through the identification of imaging biomarkers. The objective is to develop a robust and efficient AI algorithm to help radiologists in identifying potential malignancies at an early stage.
 
-Steps:
+Steps: 1) Data collection and integration; 2) Training the AI model; 3) Validation of the AI model; 4) Integration in clinical workflows. In this example, a data holder could be a hospital with vast repository of breast imaging data (mammography, MR and  ultrasound images) committed to advancing early cancer detection, intending to incorporate this imaging data into the EUCAIM Infrastructure to contribute to the development of a robust breast cancer detection model; while an AI developers could be a Medtech SME specialised in the development of AI algorithms for healthcare applications aiming to leverage the EUCAIM infrastructure for the development, training, and validation of advanced AI algorithms focused on breast cancer diagnostics.
 
-- Data collection and integration.
+Expected outcomes: 1) Improved early detection of breast cancer through the identification of relevant imaging biomarkers; 2) Enhanced efficiency in radiology workflows, reducing the time required for manual review; 3) Increased accuracy in distinguishing between benign and malignant lesions, reducing false positives and unnecessary interventions; 4) Empowerment of healthcare professionals with a valuable decision support tool for more informed clinical decisions.
 
-- Training the AI model.
-
-- Validation of the AI model.
-
-- Integration in clinical workflows.
-
-In this example, a data holder could be a hospital with vast repository of breast imaging data (mammography, MR and  ultrasound images) committed to advancing early cancer detection, intending to incorporate this imaging data into the EUCAIM Infrastructure to contribute to the development of a robust breast cancer detection model; while an AI developers could be a Medtech SME specialised in the development of AI algorithms for healthcare applications aiming to leverage the EUCAIM infrastructure for the development, training, and validation of advanced AI algorithms focused on breast cancer diagnostics.
-
-Expected outcomes:
-
-- Improved early detection of breast cancer through the identification of relevant imaging biomarkers.
-
-- Enhanced efficiency in radiology workflows, reducing the time required for manual review.
-
-- Increased accuracy in distinguishing between benign and malignant lesions, reducing false positives and unnecessary interventions.
-
-- Empowerment of healthcare professionals with a valuable decision support tool for more informed clinical decisions.
-
-Who could apply:
-
-- A data holder, e.g. a hospital with a repository of breast imaging data (mammography, MR and/or ultrasound images) committed to advancing early cancer detection, intending to incorporate this imaging data into the Cancer Image Europe Infrastructure to contribute to the development of a robust breast cancer detection model.
-
-- AI developers, e.g. a MedTech SME specialised in the development of AI algorithms for healthcare applications aiming to leverage the Cancer Image Europe infrastructure for the development, training, and validation of advanced AI algorithms focused on breast cancer diagnostics.
+Who could apply: 1) A data holder, e.g. a hospital with a repository of breast imaging data (mammography, MR and/or ultrasound images) committed to advancing early cancer detection, intending to incorporate this imaging data into the Cancer Image Europe Infrastructure to contribute to the development of a robust breast cancer detection model; 2) AI developers, e.g. a MedTech SME specialised in the development of AI algorithms for healthcare applications aiming to leverage the Cancer Image Europe infrastructure for the development, training, and validation of advanced AI algorithms focused on breast cancer diagnostics.
 
 ### User
 
