@@ -6,6 +6,7 @@
 
 ---
 
+  
 ## A
 
 ### Acceptance process
@@ -168,11 +169,14 @@ If the data store uses a different code system(s) than the EUCAIM's Hyper-Ontolo
 
 Document that expresses the willingness of the Parties to collaborate by establishing an overarching framework to facilitate interaction and exchange of information between them.
 
+
 ### Collection
 
 An aggregation of one or more datasets of medical images registered in the catalogue.
 
-Collection Explorer: refer to [User's library](#users-library)
+### Collection Explorer
+
+Please refer to [User's library](#users-library)
 
 ### Compliance unit
 
@@ -307,6 +311,7 @@ The process of matching fields from multiple datasets into a centralised databas
 ### Data Materialisation Service
 
 Services which ensure that datasets requested for federated analysis are properly retrieved, validated, and made available for computational workflows. These services operate within Federated Data Nodes, which store and manage datasets while providing computational resources. The process is facilitated by the Data Materializer Tool, which interacts with each Federated Data Node's Data Materialisation Service to execute dataset retrieval securely. The materialisation process follows predefined configurations, ensuring controlled access, authentication, and compliance within the EUCAIM infrastructure.
+
 
 ### Data Materialisation Service
 
